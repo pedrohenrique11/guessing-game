@@ -30,9 +30,18 @@ main {
 
     background: #FFFFFF;
 }
+.hide {
+    display: none;
+}
 h1 {
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
+    color: #34355B;
+}
+h2 {
+    font-size: 2.4rem;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 400;
     color: #34355B;
 }
 p, form {
@@ -42,4 +51,33 @@ p {
     font-size: 1.6rem;
     font-weight: 400;
     color: rgba(52, 53, 91, 0.8);
+    margin: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+input, button {
+    border: none;
+    padding: 1.6rem;
+    margin-top: 2rem;
+
+    font-family: "DM sans", sans-serif;
+    font-weight: 600;
+}
+input {
+    width: 5rem;
+    background-color: #DCE2E9;
+    border-radius: .4rem 0 0 .4rem;
+}
+button {
+    color: #FFFFFF;
+    background-color: #7879F1;
+    border-radius: 0 .4rem .4rem 0;
+}
+
+.screen2 button {
+    margin-top: 2rem;
+    border-radius: .4rem .4rem .4rem .4rem;
 }
