@@ -9,20 +9,21 @@
 </head>
 <body>
     <main>
-        <div class="screen1 hide">
+        <div class="screen1">
             <h1>Guessing game</h1>
             <p>Adivinhe o número entre 0 e 10</p>
             <form>
-                <input type="text">
-                <button>Tentar</button>
+                <input id="inputNumber" type="number">
+                <button onclick="handleClick(event)">Tentar</button>
             </form>
         </div>
-        <div class="screen2">
+        <div class="screen2 hide">
             <h2>Acertou em 3 tentativas!</h2>
             <form>
                 <button>Jogar novamente</button>
             </form>
         </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>
